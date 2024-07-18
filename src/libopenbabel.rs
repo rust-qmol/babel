@@ -123,8 +123,7 @@ impl<T> ::std::cmp::PartialEq for __BindgenUnionField<T> {
     }
 }
 impl<T> ::std::cmp::Eq for __BindgenUnionField<T> {}
-pub const BABEL_DATADIR: &[u8; 90usize] =
-    b"/home/chinder/temp/qmol/target/debug/build/openbabel-89e4b387d8ee6d25/out/share/openbabel\0";
+pub const BABEL_DATADIR : & [u8 ; 97usize] = b"/home/chinder/temp/temp_qmol/babel/target/debug/build/babel-f49b1709dbbb3eb6/out/share/openbabel\0" ;
 pub const BABEL_VERSION: &[u8; 6usize] = b"3.1.1\0";
 pub const MODULE_EXTENSION: &[u8; 4usize] = b".so\0";
 pub const HAVE_SYS_TIME_H: u32 = 1;
@@ -134,7 +133,7 @@ pub const HAVE_CLOCK_T: u32 = 1;
 pub const HAVE_SNPRINTF: u32 = 1;
 pub const HAVE_STRCASECMP: u32 = 1;
 pub const HAVE_STRNCASECMP: u32 = 1;
-pub const OB_MODULE_PATH : & [u8 ; 94usize] = b"/home/chinder/temp/qmol/target/debug/build/openbabel-89e4b387d8ee6d25/out/lib/openbabel/3.1.1\0" ;
+pub const OB_MODULE_PATH : & [u8 ; 101usize] = b"/home/chinder/temp/temp_qmol/babel/target/debug/build/babel-f49b1709dbbb3eb6/out/lib/openbabel/3.1.1\0" ;
 pub const TIME_WITH_SYS_TIME: u32 = 1;
 pub const _GLIBCXX_MATH_H: u32 = 1;
 pub const _GLIBCXX_CXX_CONFIG_H: u32 = 1;

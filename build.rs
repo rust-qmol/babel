@@ -2,7 +2,14 @@ use cmake::Config;
 use std::process::Command;
 
 fn main() {
-    // Command::new("git").args(&["clone", "https://github.com/openbabel/openbabel.git"]).status().unwrap();
+    Command::new("git")
+            .args(&["submodule", "init"])
+                    .status()
+                            .expect("git submodule init failed");
+    Command::new("git")
+                .args(&["submodule", "update"])
+                        .status()
+                                .expect("git submodule update faild");
 
     let dst = Config::new("openbabel").build();
 
