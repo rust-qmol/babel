@@ -1,5 +1,5 @@
-use cmake::Config;
-use std::process::Command;
+// use cmake::Config;
+// use std::process::Command;
 
 fn main() {
 //     Command::new("git")
